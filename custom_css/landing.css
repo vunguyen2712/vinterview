@@ -1,0 +1,104 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: 'Varela Round', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+}
+#navbar  {
+  display: inline-block;
+  padding: 0;
+  font-size: 18px;
+  margin: 8px 0;
+  border-bottom: 1px solid transparent;
+  letter-spacing: 2px;
+  background-color: #FFFFFF;
+}
+#menu li a:hover {
+  font-size: 20px;
+  color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
+}
+#projectName {
+  font-size: 28px;
+  letter-spacing: 5px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+body > .container {
+  padding: 60px 15px 0;
+
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Font */
+h1 {
+	font-family: 'Varela Round';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: 'Varela Round';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: 'Varela Round';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: 'Varela Round';
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: 'Varela Round';
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
